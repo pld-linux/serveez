@@ -1,0 +1,14 @@
+--- serveez-0.3.1/doc/serveez.texi.orig	2021-12-11 09:57:59.000000000 +0100
++++ serveez-0.3.1/doc/serveez.texi	2022-01-22 10:48:55.781060699 +0100
+@@ -32,9 +32,9 @@ Free Documentation License''.
+ @set PACKAGE Serveez
+ @set s_PACKAGE serveez
+ 
+-@dircategory Serveez - A server framework.
++@dircategory Miscellaneous:
+ @direntry
+-* Serveez: (serveez).           Serveez Documentation.
++* Serveez: (serveez).			Serveez Documentation
+ @end direntry
+ 
+ @macro PROC

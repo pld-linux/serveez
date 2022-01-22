@@ -1,0 +1,11 @@
+--- serveez-0.3.1/src/http-server/http-core.c.orig	2021-12-11 10:07:37.000000000 +0100
++++ serveez-0.3.1/src/http-server/http-core.c	2022-01-22 09:29:31.070206660 +0100
+@@ -367,7 +367,7 @@ http_log (svz_socket_t *sock)
+ 
+       if (!ferror (cfg->log) && !feof (cfg->log))
+         {
+-          fprintf (cfg->log, line);
++          fputs (line, cfg->log);
+           fflush (cfg->log);
+         }
+       else
